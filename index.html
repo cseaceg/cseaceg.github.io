@@ -1,272 +1,35 @@
 <!DOCTYPE html>
 <html>
-<!--
-  <a href="http://bootstrapious.com/portfolio-themes">Bootstrapious - Portfolio Themes</a>
-  Theme modified for use by CSEA, CEG. 
 
-  Developed by N.Md Faizaan. github.com/faizaanceg
--->
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>CSEA - Computer Science Engineers Association</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="all,follow">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/themify-icons.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin%7CRoboto+Condensed:300,700%7COpen+Sans:300,400,700">
-  <link rel="stylesheet" href="css/style.default.css">
-  <link rel="shortcut icon" href="img/favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSEA - Computer Science Engineers Association</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico%7CCabin%7CRoboto+Condensed:300,700%7COpen+Sans:300,400,700">
+    <link rel="stylesheet" href="css/style.default.css">
+    <link rel="shortcut icon" href="img/favicon.png">
 </head>
 
-<body data-spy="scroll" data-target="#navigation" data-offset="120">
-  <!-- intro-->
-  <section id="intro" class="intro image-background">
-    <div class="overlay"></div>
-    <div class="content">
-      <div class="container clearfix">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 col-sm-12">
-            <p class="roboto">Welcome to </p>
-            <h1><span class="bold">CSEA</span></h1>
-            <p class="roboto">Computer Science Engineers Association</p>
-          </div>
+<body>
+    <section id="intro" class="intro">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="container clearfix">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-sm-12">
+                        <p class="roboto" style="color: black;font-size:40px;">Get ready for awesomeness in</p>
+                        <p id="counter">05</p>
+                        <button class="btn-launch btn-2 btn-2i" onclick="javascript:controlCounter('start')"> Launch </button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div><a href="#about" class="icon fa-float animated scroll-to"><i class="fa fa-angle-double-down"></i></a>
-  </section>
-  <!-- navbar-->
-  <header class="header">
-    <div class="sticky-wrapper">
-      <div role="navigation" class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            <a href="#intro" class="navbar-brand scroll-to" style="padding:15px;"><strong class="roboto">CSEA</strong></a>
-          </div>
-          <div id="navigation" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#intro">Home</a></li>
-              <li><a href="#about">About </a></li>
-              <li><a href="#events">Events</a></li>
-              <li><a href="#text">Vision</a></li>
-              <li><a href="#team">Team</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- about us-->
-  <section id="about">
-    <div class="container clearfix">
-      <div class="row margin-bottom">
-        <div class="col-md-6 margin-bottom">
-          <h2 class="heading">About us</h2>
-          <p class="lead">The Computer Science Engineering Association(CSEA) was established with the primary goal of knowledge advancement.</p>
-          <p class="cabin">
-            Being the brainchild of Department of Computer Science and Engineering(DCSE) of CEG, one of the oldest Engineering schools
-            of the country, the association ensures that the role of technocrats and specialists in various industries, is
-            implied. </p>
-          <p class="cabin"> It functions to develop and promote the progression of  Computer Science and technologies to its students as well
-            as the members of the global community through its rich alumni support. Comprising students and faculty, the
-            organization is one of the most active Engineering Associations in the city.
-          </p>
-        </div>
-        <div class="col-md-6 margin-bottom">
-          <p><img src="img/csea.png" alt="" class="img-responsive"></p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- services-->
-  <section id="events" class="section-gray">
-    <div class="container clearfix">
-      <div class="row services">
-        <div class="col-md-12">
-          <h2 class="heading">Events</h2>
-          <div class="row">
-            <div class="col-sm-8">
-              <div class="box">
-                <h4 class="heading">Sync</h4>
-                <div class="text">
-                  <p class="cabin">The intra-college level symposium, identifies and facilitates the talents from within the college through
-                    a variety of events organized by the students. With the events being online as well as onsite, the one
-                    day symposium is a launching platform for many budding Computer Engineers.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="box">
-                <div class="image">
-                  <img src="img/sync.jpg" alt="" width="40%" style="padding: 10px; margin-top: 25px;" class="img-responsive">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-8">
-              <div class="box">
-                <h4 class="heading">aBaCUS</h4>
-                <div class="text">
-                  <p class="cabin">The activities of the association culminate with the annual technical symposium- ABACUS. With each year's
-                    growing levels of success, it attracts about 400 students from all over the country to attend various
-                    workshops, paper presentations and interactive sessions. The events also include professional seminars
-                    for companies and institutions that are interested and looking for efficient engineers, providing phenomenal
-                    opportunities to young minds seeking for internships. The association with a round the clock mechanism
-                    helps students in various others aspects granting a prospectus for all of them to showcase their talents.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="box">
-                <div class="image">
-                  <img src="img/abacus.png" alt="" width="40%" style="padding: 10px; margin-top: 25px;" class="img-responsive">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- text-->
-  <section id="text" class="section-gray">
-    <div class="container clearfix">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="heading">Vision</h2>
-          <div class="row">
-            <div class="col-sm-12">
-              <p class="cabin">Engineering is a rewarding career. CSEA's mission is to provide updated resources and a highly developed structure
-                to capacitate an interactive environment between the students and faculty. </p>
-              <p class="cabin"> The association also attempts to conduct classes on various topics for the students with the classes being
-                taken by the students, hence can rightly be stated the association by the students and for the students.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- team-->
-  <section id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="heading">Office bearers</h2>
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-4 col-sm-6">
-              <div class="team-member">
-                <h3><a href="#">Dr.A.P.Shanthi</a></h3>
-                <p class="role">Treasurer</p>
-                <div class="text">
-                  <p>Professor, DCSE.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="team-member">
-                <h3><a href="#">Dr. Rajeswari Sridhar</a></h3>
-                <p class="role">President</p>
-                <div class="text">
-                  <p>Assistant Professor (Senior Grade), DCSE.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2"></div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 col-sm-6">
-              <div class="team-member">
-                <h3><a href="#">Giritharan T</a></h3>
-                <p class="role">Chairman</p>
-                <div class="text">
-                  <p>IV year, CSE.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="team-member">
-                <h3><a href="#">Shri Parvathi T V</a></h3>
-                <p class="role">Vice Chairman</p>
-                <div class="text">
-                  <p>IV year, CSE.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="team-member">
-                <h3><a href="#">Pugal Neelam Aadalarasan P</a></h3>
-                <p class="role">Secretary</p>
-                <div class="text">
-                  <p>IV year, CSE.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 col-sm-6">
-              <div class="team-member">
-                <h3><a href="#">Priyavarshini M</a></h3>
-                <p class="role">Student Treasurer</p>
-                <div class="text">
-                  <p>III year, CSE.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="team-member">
-                <h3><a href="#">Vishnupiriya N</a></h3>
-                <p class="role">Joint Secretary</p>
-                <div class="text">
-                  <p>III year, CSE.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="team-member">
-                <h3><a href="#">Vishvesh Thangamani P</a></h3>
-                <p class="role">Joint Secretary</p>
-                <div class="text">
-                  <p>III year, CSE.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="image">
-        <img src="img/ceg_logo.png" alt="" width="30%" class="img-responsive">
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="container">
-      <div class="row copyright">
-        <div class="col-md-6">
-          <p class="roboto">&copy;2016 CSEA, CEG</p>
-        </div>
-        <div class="col-md-6">
-          <div class="social">
-            <a href="https://facebook.com/csea.ceg" class="external facebook" data-animate-hover="pulse"><i class="fa fa-facebook"></i></a>
-          </div>
-          <p class="credit roboto"><a href="https://facebook.com/faizaan.ceg">N. Md Faizaan</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
-  <script src="js/jquery.scrollTo.min.js"></script>
-  <script src="js/front.js"></script>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/launch.js"></script>
 </body>
 
 </html>
